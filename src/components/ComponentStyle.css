@@ -1,0 +1,337 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 12vh;
+  background: #0b3c22;
+}
+
+.Navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.Logo-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 25rem;
+}
+
+.Navbar-container img {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.Navbar .Link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 550;
+  color: white;
+}
+
+.Navbar .Link .Navbar-Link-Bottom {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.Function-container {
+  margin-left: 30rem;
+}
+
+.Link-function {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.Link-function:hover,
+.Link-function label:hover {
+  cursor: pointer;
+  color: rgb(230, 230, 0);
+}
+
+.btn--standard {
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn--outlined {
+  color: black;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.btn--small {
+  padding: 8px 16px;
+}
+
+.btn--normal {
+  padding: 10px 15px;
+}
+
+.btn--large {
+  padding: 18px 8px;
+}
+
+.green {
+  border: 1px solid #0b3c22;
+  background: #0b3c22;
+}
+
+.green:hover {
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  color: #0b3c22;
+  border: 1px solid #0b3c22;
+  background: white;
+}
+
+.yellow {
+  background: #dab204;
+}
+
+.gray {
+  background: white;
+}
+
+.gray:hover {
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+.red {
+  background: rgb(255, 69, 69);
+}
+
+.Appform-container {
+  width: 40rem;
+  height: 75rem;
+  background: white;
+  border: 1px solid #eeeeee;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin-bottom: 20px;
+}
+
+.Appform-topbar-container {
+  font-size: 14px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Appform-topbar-container .bold1 {
+  font-weight: bold;
+}
+
+.Appform-topbar-row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ics-logo-appform {
+  margin-right: 20px;
+}
+
+.wmsu-logo-appform {
+  margin-left: 20px;
+}
+
+.Appform-topbar-row2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30rem;
+}
+
+.Appform-topbar-row3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.Appform-topbar-row4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  width: 95%;
+  height: 40vh;
+  margin-left: 15px;
+  background: #eeeeee;
+}
+
+.table-textfield {
+  background: #eee;
+  text-align: center;
+  height: 14px;
+  width: 40px;
+  border-bottom: 1px black solid;
+}
+
+.Adviser-table thead tr th {
+  font-size: 18px;
+  padding: 5px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgb(4, 51, 0);
+}
+
+.Adviser-table tbody tr td {
+  font-size: 14px;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+.Left-side {
+  display: flex;
+  flex-direction: column;
+
+  width: 5rem;
+  margin-right: 19rem;
+}
+.Right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.Appform-topbar-row5 {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.Appform-topbar-row5 label {
+  margin-left: 30px;
+}
+
+.Appform-topbar-row5 input {
+  background: white;
+  margin-left: 30px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.Appform-bottombar-row1 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.director {
+  margin-bottom: 10px;
+}
+
+.Appform-bottombar-row2 {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Appform-bottombar-row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 30px;
+}
+
+.Left-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.Left-bottom input {
+  background: white;
+  border-bottom: 1px solid;
+}
+
+.Right-bottom {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Right-bottom input {
+  background: white;
+  border-bottom: 1px solid;
+}
+
+.Appform-bottombar-row4 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.admin-signiture-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Date {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 18rem;
+}
+
+.admin-signiture-bottom input {
+  background: white;
+}
+
+.Appform-bottombar-row5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bold1 {
+  font-weight: bold;
+}
+
+.Button-submit-container {
+  width: 100px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.uploadfile {
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 210px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}

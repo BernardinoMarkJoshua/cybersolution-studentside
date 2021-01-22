@@ -1,0 +1,265 @@
+.DashBoard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.DashBoard-intro-label {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: auto;
+
+  background-image: url("../assets/homeICON.png");
+  height: 600px;
+  width: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.DashBoard-intro-label .Bottom-label-dashboard {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.DasBoard-intro-label-container {
+  color: white;
+  margin-left: 50px;
+  margin-top: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Table-container {
+  margin-right: 13rem;
+  margin-bottom: 5rem;
+}
+
+table {
+  margin-top: 20px;
+  color: black;
+  width: 25rem;
+  border-collapse: collapse;
+}
+
+th {
+  color: Black;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 3px;
+}
+
+td {
+  padding: 3px;
+  font-size: 11px;
+}
+
+.Leaderboard-label {
+  font-weight: 500;
+}
+
+.Apply {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Apply-container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Fillup-form {
+  margin: 10px;
+  margin-right: 70px;
+  border-left: 1px solid #eeeeee;
+  background: rgb(255, 255, 255);
+  width: 450px;
+  height: 400px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.Fillup-label-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+  color: white;
+  background: #0b3c22;
+}
+
+.Fillup-label-container h2,
+.Fillup-label-container label {
+  margin-left: 20px;
+}
+
+.Fillup-label-container h2 {
+  font-size: 20px;
+}
+
+.Fillup-label-container label {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+input {
+  outline: none;
+  background: #f3f3f3;
+  width: 12rem;
+  height: 34px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #0b3c22;
+}
+
+select {
+  background: #f3f3f3;
+  width: 80px;
+  height: 36px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #0b3c22;
+}
+
+.Label-row1-fillup {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.Label-row2-fillup {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.row1-label1 {
+  margin-left: 120px;
+}
+.row2-label2 {
+  margin-left: 25px;
+}
+
+.Input-row1-fillup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Input-row1-fillup input,
+.Input-row1-fillup select {
+  margin: 10px 10px;
+}
+
+.Input-row2-fillup {
+  margin: 10px 10px;
+  margin-left: 30px;
+}
+
+.Input-row2-fillup select {
+  width: 10rem;
+  height: 34px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #0b3c22;
+  margin-right: 100px;
+}
+
+.Register-row {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Register-row label {
+  margin-right: 5px;
+}
+
+.Register {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Register-container {
+  margin-top: 30px;
+  border-left: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  width: 450px;
+  height: 600px;
+  margin-bottom: 30px;
+}
+
+.Register-topbar-label {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Register-topbar-label h1 {
+  font-weight: lighter;
+  color: rgb(59, 59, 59);
+}
+
+.Register-topbar-label label {
+  font-weight: lighter;
+  color: rgb(95, 95, 95);
+  font-size: 14px;
+}
+
+.Register-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.Register-form input {
+  background: white;
+  padding-left: 5px;
+  width: 20rem;
+}
+
+.Register-form select {
+  background: white;
+  width: 10rem;
+  margin-right: 110px;
+  margin-top: 5px;
+}
+
+.Register-form label {
+  margin-top: 15px;
+}
+
+.Button-container-register {
+  margin-left: 15rem;
+}
+
+.Course-container-regiser {
+  display: flex;
+  flex-direction: column;
+}
+
+.anchortag {
+  margin-left: 21rem;
+  color: #0b3c22;
+  text-decoration: none;
+}
